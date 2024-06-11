@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . /app
 RUN pip install -r requirements.txt  
 EXPOSE 8000
-CMD [ "python ./qxresearch-event-1/Applications/Calendar /calendar.py" ]
+CMD [ "python ./python/Applications/Calendar /calendar.py" ]
